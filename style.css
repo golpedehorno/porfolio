@@ -1,4 +1,5 @@
 
+
 .contenedor_porfolio{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -13,7 +14,7 @@
 .itemp{
     width: 100px;
     height: 200px;
-    border: 3px solid blueviolet;
+  
     -webkit-transition:all .9s ease; /* Safari y Chrome */
     -moz-transition:all .9s ease; /* Firefox */
     -o-transition:all .9s ease; /* IE 9 */
@@ -26,6 +27,8 @@
     -ms-transform:scale(1.50);
     -o-transform:scale(1.50);
     transform:scale(1.50);
+    color:white;
+    text-shadow: 1px 1px 5px blueviolet;
    
 }
 
@@ -35,6 +38,38 @@
     background-size: contain;
     text-align: end;
     color: white;
-    text-shadow: 10px 10px 10px;
+   
     
+}
+.unop{
+    background-image: url("img/1tania.png");
+    background-position: center;
+}
+.dosp{
+    background-image: url("img/2argensoft.png");
+    background-position: center;
+}
+.tresp{
+    background-image: url("img/3lorelei.png");
+    background-position: center;
+}
+.cuatrop{
+    background-image: url("img/4misturnos.png");
+    background-position: center;
+}
+.cincop{
+    background-image: url("img/5pediatrica.png");
+    background-position: center;
+}
+.seisp{
+    background-image: url("img/6maba.png");
+    background-position: center;
+}
+.sietep{
+    background-image: url("img/7santangelo.png");
+    background-position: center;
+}
+.ochop{
+    background-image: url("img/8ordencia.png");
+    background-position: center;;
 }
