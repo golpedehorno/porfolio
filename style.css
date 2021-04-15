@@ -29,9 +29,10 @@
     -o-transform:scale(1.50);
     transform:scale(1.50);
     color:white;
-    text-shadow: 1px 1px 5px blueviolet;
+    /*text-shadow: 1px 1px 5px blueviolet;*/
     filter: none;
-    border: 2px solid blueviolet;
+    border: none;
+    
 }
 
 .itemp{
@@ -40,7 +41,7 @@
     background-size: contain;
     text-align: center;
     color: white;
-   
+    border-bottom: 2px solid blueviolet;
     
 }
 .unop{
