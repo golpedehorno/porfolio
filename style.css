@@ -2,24 +2,25 @@
 
 .contenedor_porfolio{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 30px;
     justify-items: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
    
 }
 
 .itemp{
-    width: 100px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
   
     -webkit-transition:all .9s ease; /* Safari y Chrome */
     -moz-transition:all .9s ease; /* Firefox */
     -o-transition:all .9s ease; /* IE 9 */
     -ms-transition:all .9s ease; /* Opera */
     width:100%;
+    filter: grayscale(100%);
 }
 .itemp:hover{
     -webkit-transform:scale(1.50);
@@ -29,14 +30,15 @@
     transform:scale(1.50);
     color:white;
     text-shadow: 1px 1px 5px blueviolet;
-   
+    filter: none;
+    border: 2px solid blueviolet;
 }
 
 .itemp{
     background: url("img/1.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    text-align: end;
+    text-align: center;
     color: white;
    
     
@@ -46,7 +48,7 @@
     background-position: center;
 }
 .dosp{
-    background-image: url("img/2argensoft.png");
+    background-image: url("img/2rinder.png");
     background-position: center;
 }
 .tresp{
@@ -72,4 +74,8 @@
 .ochop{
     background-image: url("img/8ordencia.png");
     background-position: center;;
+}
+.nuevep{
+    background-image: url("img/9argensoft.png");
+    background-position: center;
 }
