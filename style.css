@@ -4,9 +4,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 50px;
     justify-items: center;
     align-items: center;
+    margin: 100px;
     margin-top: 50px;
    
 }
@@ -23,11 +24,11 @@
     filter: grayscale(100%);
 }
 .itemp:hover{
-    -webkit-transform:scale(1.50);
-    -moz-transform:scale(1.50);
-    -ms-transform:scale(1.50);
-    -o-transform:scale(1.50);
-    transform:scale(1.50);
+    -webkit-transform:scale(2.50);
+    -moz-transform:scale(2.50);
+    -ms-transform:scale(2.50);
+    -o-transform:scale(2.50);
+    transform:scale(2.50);
     color:white;
     /*text-shadow: 1px 1px 5px blueviolet;*/
     filter: none;
@@ -42,14 +43,23 @@
     text-align: center;
     color: white;
     border-bottom: 2px solid blueviolet;
+    position: relative;
     
+}
+a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
 }
 .unop{
     background-image: url("img/1tania.png");
     background-position: center;
 }
 .dosp{
-    background-image: url("img/2rinder.png");
+    background-image: url("img/2pediatrica.png");
     background-position: center;
 }
 .tresp{
@@ -61,7 +71,7 @@
     background-position: center;
 }
 .cincop{
-    background-image: url("img/5pediatrica.png");
+    background-image: url("img/5rinder.png");
     background-position: center;
 }
 .seisp{
